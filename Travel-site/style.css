@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.section-cover {
+  background-color: white;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+}
+
+.icon-wrapper {
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.icon-wrapper i {
+  font-size: 30px;
+  color: rgb(231, 154, 53);
+}
+
+.p-wraper {
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  margin-top: 2px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+.p-wraper p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(20, 20, 20);
+}
+.small-p {
+  background-color: white;
+  width: 50%;
+  height: 20px;
+  margin-top: -12px;
+  justify-content: space-around;
+  display: flex;
+  align-items: top;
+  margin-left: 300px;
+}
+.small-p p {
+  font-size: 10px;
+}
+/* first-image-section */
+.image-section {
+  background-color: white;
+  width: 60%;
+  height: 250px;
+  margin-top: 40px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+}
+
+
+.image-section #image-one {
+  width: 48%;
+  height: 90%;
+  background-image: url(/Assets/images/boat.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.image-section #p-one {
+  font-size: 10px;
+  margin-top: 25px;
+  margin-left: 40px;
+  color: white;
+}
+.image-section #p-two {
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+}
+.image-section #btn {
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: black;
+}
+/* Section-two */
+.section-two-cover {
+  background-color: #191970;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.text {
+  background-color: transparent;
+  width: 60%;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.text #t-one {
+  color: white;
+  font-size: 14px;
+}
+.text #t-two {
+  color: white;
+  font-size: 10px;
+}
+/* second-image-section */
+.second-image-section {
+  background-color: transparent;
+  width: 60%;
+  height: 250px;
+  display: grid;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.second-image-section img {
+  width: 100%;
+  height: 80%;
+  padding: 10px;
+}
